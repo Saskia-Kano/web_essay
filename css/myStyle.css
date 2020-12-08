@@ -1,0 +1,152 @@
+#container { 
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%; 
+	background-color: transparent;
+    margin: 0px auto 0px auto; 
+    border: 0px solid #ffffff; 
+	padding: 5px 5px; 
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	height: 100%;
+}
+
+#topbanner {
+	width: 100%;
+	background-color: #EB331D;
+	position: relative;
+	margin: 0px auto 0px auto;
+	border: 2px solid #003366;
+	height: 100%;
+	font-family: 'Barrio', cursive;
+}
+
+h1 {
+	font-family: 'Barrio', cursive;
+    padding: 50px;
+    text-align: center;
+	font-size: 6.5em;
+	color: #ffffff;
+}
+
+
+h3 {
+	font-family: 'Barrio', cursive;
+    padding: 20px;
+    text-align: center;
+	font-size: 2.8em;
+}
+
+
+h2 {
+	font-family: 'Barrio', cursive;
+    padding: 20px;
+    text-align: left;
+	font-size: 24px;
+}
+
+#container2 {
+	font-family: 'Quicksand', sans-serif;
+	position: relative;
+	margin: 3% 15% 5% 15%; 
+	padding: 5px;
+	font-size: 1em;
+}
+
+
+
+
+/*NAVBAR*/
+
+
+div.sticky {
+  position: relative;
+  top: 0;
+  padding: 0px 0px;
+  background-color: transparent;
+  border: 0px solid #003366;
+  font-family: 'Quicksand', sans-serif;
+  text-align: right;
+  padding: 10px;
+}
+
+.sticky :hover {
+  background-color: transparent;
+  color: #EB331D;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: transparent;
+  color: #EB331D;
+  text-decoration: none;
+}
+
+a:visited {
+  color: grey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+.footer {
+	bottom: 0;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	padding: 5px 5px;
+	font-size: 14px;
+	height: 60px;
+	width: 100%;
+}
+
+@media (max-width: 800px) {
+	.footer {
+	    text-align: center;
+	    font-size: 10px;
+	}
+}
+
+@media (min-width: 800px) {
+	.footer {
+		text-align: center;
+        font-size: 10px;
+	}
+}
+
+@media (max-width: 600px) {
+	.footer {
+	    text-align: center;
+	    font-size: 10px;
+	}
+}
+
+@media (min-width: 600px) {
+	.footer {
+		text-align: center;
+        font-size: 10px;
+	}
+}
